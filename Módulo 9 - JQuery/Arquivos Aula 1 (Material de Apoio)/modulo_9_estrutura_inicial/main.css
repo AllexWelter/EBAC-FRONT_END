@@ -48,3 +48,16 @@ button {
 #botao-cancelar {
     background-color: red;
 }
+
+ul {
+    display: flex;
+    flex-wrap: wrap;;
+}
+
+ul li {
+    max-width: 25%;
+}
+
+ul li img {
+    width: 100%;;
+}
