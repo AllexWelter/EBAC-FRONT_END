@@ -82,6 +82,6 @@ ul li img {
 
 }
 
-ul li:hover {
-    
+ul li:hover .overlay-imagem-link {
+    opacity: 1;
 }
