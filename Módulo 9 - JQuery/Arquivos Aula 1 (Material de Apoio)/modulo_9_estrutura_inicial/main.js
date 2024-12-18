@@ -10,6 +10,7 @@ $(document).ready(function(){
     $('form').on('submit', function(e) {
         e.preventDefault()
         const enderecoDaNovaImagem = $('#endereco-imagem-nova').val()
-        console.log(enderecoDaNovaImagem)
+        const novoItem = $('<li></li>');
+        $(`<img src="${enderecoDaNovaImagem}" />`)
     } )
 })
