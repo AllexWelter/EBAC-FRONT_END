@@ -16,4 +16,10 @@ header {
     font-style: italic;
 }
 
-header 
+header button {
+    margin-left: 16px;
+}
+
+form {
+    background-color: #c8d6e5;
+}
