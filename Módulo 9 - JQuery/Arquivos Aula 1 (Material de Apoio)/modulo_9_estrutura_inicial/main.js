@@ -9,6 +9,7 @@ $(document).ready(function(){
 
     $('form').on('submit', function(e) {
         e.preventDefault()
-        const enderecoDaNovaImagem = $('#endereco-imagem-nova')
+        const enderecoDaNovaImagem = $('#endereco-imagem-nova').val()
+        console.log(enderecoDaNovaImagem)
     } )
 })
