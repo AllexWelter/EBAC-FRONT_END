@@ -10,5 +10,10 @@ header {
     padding: 16px 0;
     color: #fff;
     display: flex;
-    border-bottom: 16px solid;
+    border-bottom: 16px solid #341f97;
+    justify-content: center;
+    text-transform: uppercase ;
+    font-style: italic;
 }
+
+header 
