@@ -56,8 +56,14 @@ ul {
 
 ul li {
     max-width: 25%;
+    list-style: none;;
 }
 
 ul li img {
     width: 100%;;
+}
+
+.overlay-imagem-link {
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.7);    
 }
