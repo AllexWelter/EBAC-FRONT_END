@@ -1,0 +1,16 @@
+O Javascript tem tipagem dinâmica fraca.
+
+Tipagem, dinâmica, e fraca ainda? Isso mesmo, mas fraca não significa que a linguagem Javascript é ruim (pelo contrário).
+
+Por partes:
+
+Tipagem é o sistema de como uma linguagem gerencia os tipos primitivos.
+
+Tipagem tem tipos (sim, irônico) tem dois principais tipos ou, para os mais técnicos, paradigma de tipagem. Na tipagem dinâmica vc não precisa declarar explicitamente o tipo primitivo da variável, ela mesmo identifica e entende implicitamente. Alguns exemplos são Javascript e Python.
+
+Depois existe a tipagem estática, se vc é proativo já entendeu que é o contrário da tipagem dinâmica. Uma linguagem de tipagem estática obriga o programador a especificar explicitamente o tipo primitivo. Alguns casos são C e Java (Java é uma linguagem sem qualquer relação com Javascript, são duas linguagens completamente distintas. Não confunda pelo radical no nome).
+
+Uma tipagem forte e fraca está relacionado diretamente com as linguagens de tipagem dinâmica, pois estas tem comportamentos diferentes em tempo de execução pela peculiaridade de serem dinâmicas, isto é, o programador não declarou explicitamente.
+
+A tipagem fraca significa que em tempo de execução (isto é, quando o algoritmo está em pleno funcionamento/processamento) a linguagem irá, se necessário, poder alterar o tipo da variável várias vezes. Uma situação: Se vc declarar atribuir o valor inteiro 5 a uma variável e somar com uma string com valor de "5", o retorno será 55, e se atribuir esse resultado na primeira variável a linguagem irá alterar o tipo dela que antes era inteiro para string. E isso pode ocorrer mais de uma vez, talvez isso seja um problema ou não, tudo depende da aplicação e finalidade. Costumo dizer que se alguma forma de fazer algo, mesmo sendo menos "inteligente" existe, então é por que é útil em algum caso em algum lugar.
+Já uma tipagem dinâmica forte... Isso mesmo, não altera o valor da variável que ela mesmo definiu lá no início, quando alocou o espaço. Isso só vai acontecer se o programador fizer um cast (uma conversão de tipo primitivo) em algum momento do algoritmo. Na situação anterior, em uma linguagem fortemente tipada, se não houvesse um cast ocorreria um erro e o compilador informaria o programador para fazer a conversão. Isso acontece na linguagem Python.

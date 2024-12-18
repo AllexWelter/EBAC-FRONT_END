@@ -1,0 +1,9 @@
+Html, Css e JavaScript funcionam como uma tríade fundamental para o desenvolvimento web,  todos com um papel de total importância.
+
+		Hmtl  é uma linguagem de marcação usada para estruturar o conteúdo de uma página da web, podendo definir elementos como títulos, parágrafos entre muitos outros. Cada elemento é representado por TAG que informa o propósito e conteúdo que envolve. Além de organizar conteúdo ele também atribui significado ao mesmo, como exemplo, o uso de tags como <header> e <nav> ajudando mecanismos de busca a entender a hierarquia e propósito do conteúdo.
+
+		Css fica responsável por estilizar o conteúdo que foi definido pelo HTML. Com ele pode-se controlar aparência de elementos, incluindo cores, fontes etc... Também permite a criação de layouts responsivos que se adaptam em diferentes tamanhos de telas e dispositivos variados.
+
+		JavaScript é a linguagem de programação que vem trazer a interatividade às páginas da web, permitindo resposta a ações do usuário, como cliques, movimentos do mouse, entradas de teclado entre outros. É possível criar conteúdos dinâmicos como formulários interativos, animações ou até jogos. Além de possuir um vasto ecossistema de bibliotecas e frameworks como o React, Vue.js etc.. que facilita e muito o desenvolvimento de aplicações web.
+
+Os três pilares funcionam juntos para criar a experiência completa para o usuário, onde o html fornece toda a estrutura básica, o CSS estiliza e posiciona os elementos, e o JavaScript adiciona toda sua interatividade.

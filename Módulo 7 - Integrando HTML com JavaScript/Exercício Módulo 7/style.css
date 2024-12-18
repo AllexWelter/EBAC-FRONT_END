@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(135, 244, 244);
+}
+
+header {
+    text-align: center;
+}
+
+form {
+    background-color: beige;
+    margin:auto;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 15px;
+    padding: 1px;
+    width: 400px;
+    height: 150px;
+}
+
+.internoF {
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.success-message {
+    background-color: #27ae60;
+    padding: 10px;
+    color: #fff;
+    display: none;
+}
+
+.error-message {
+    background-color: red;
+    padding: 10px;
+    color: #fff;
+    display: none;
+}
