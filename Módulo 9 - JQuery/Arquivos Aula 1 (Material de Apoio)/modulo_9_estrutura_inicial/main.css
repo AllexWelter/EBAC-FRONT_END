@@ -72,7 +72,16 @@ ul li img {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;    
+    width: 100%;
+    opacity: 0;    
 }
 
-.overlay-imagem-link
+.overlay-imagem-link a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+ul li:hover {
+    
+}
