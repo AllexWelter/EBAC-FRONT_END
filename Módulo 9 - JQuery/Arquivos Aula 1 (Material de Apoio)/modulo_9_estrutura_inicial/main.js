@@ -8,7 +8,7 @@ $(document).ready(function(){
     })
 
     $('form').on('submit', function(e) {
-        console.log("submit")
         e.preventDefault()
+        const enderecoDaNovaImagem = $('#endereco-imagem-nova')
     } )
 })
