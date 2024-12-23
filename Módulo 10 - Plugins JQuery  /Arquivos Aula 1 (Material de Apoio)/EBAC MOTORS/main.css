@@ -37,5 +37,13 @@ nav li a{
 }
 
 .menu-hamburguer {
-    
+    width: 32px;
+}
+
+.menu-hamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
 }
