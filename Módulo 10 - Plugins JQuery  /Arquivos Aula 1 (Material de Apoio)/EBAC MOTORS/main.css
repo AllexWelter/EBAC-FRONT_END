@@ -17,7 +17,9 @@ header {
     color: #fff;
 }
 
-header 
+header > .container {
+    
+}
 
 nav {
     background-color: #575fcf;
