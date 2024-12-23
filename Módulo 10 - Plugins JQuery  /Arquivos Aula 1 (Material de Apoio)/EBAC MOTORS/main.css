@@ -63,3 +63,16 @@ nav li a{
 .container-flex {
     display: flex;
 }
+
+#sobre-a-loja img {
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
