@@ -22,7 +22,6 @@ header {
 }
 
 header > .container {
-    display: flex;
     justify-content: space-between; 
     align-items: center;
     padding-bottom: 16px;   
@@ -59,4 +58,8 @@ nav li a{
     background-color: #fff;
     display: block;
     margin-bottom: 4px;
+}
+
+.container-flex {
+    display: flex;
 }
