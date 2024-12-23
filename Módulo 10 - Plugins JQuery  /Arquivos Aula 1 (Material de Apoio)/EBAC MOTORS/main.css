@@ -76,3 +76,7 @@ section {
 section h2 {
     margin-bottom: 16px;
 }
+
+.lista-veiculos li {
+    list-style: none;    
+}
