@@ -77,11 +77,42 @@ section h2 {
     margin-bottom: 16px;
 }
 
+.lista-veiculos {
+    flex-wrap: wrap;
+}
+
 .lista-veiculos li {
     list-style: none;
-    max-width: 30%;    
+    max-width: 30%;
+    margin-bottom: 24px;    
+}
+
+.lista-veiculos img {
+    max-width: 100%;    
 }
 
 .lista-veiculos h3 {
     margin: 16px 0;    
+}
+
+.item-central {
+    margin: 0 5%;    
+}
+
+.lista-veiculos li button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.lista-veiculos li strong {
+    margin: 16px 0;
+    display: block;
 }
