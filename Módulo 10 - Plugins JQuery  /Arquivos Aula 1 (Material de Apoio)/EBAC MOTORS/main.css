@@ -110,6 +110,7 @@ section h2 {
     font-weight: bold;
     font-style: italic;
     cursor: pointer;
+    border-radius: 6px;
 }
 
 .lista-veiculos li strong {
