@@ -6,7 +6,7 @@
 }
 
 html {
-    overflow-x: hidden;    
+    overflow-x: hidden;
 }
 
 .container {
@@ -21,10 +21,10 @@ header {
     color: #fff;
 }
 
-header > .container {
-    justify-content: space-between; 
+header>.container {
+    justify-content: space-between;
     align-items: center;
-    padding-bottom: 16px;   
+    padding-bottom: 16px;
 }
 
 nav {
@@ -33,7 +33,7 @@ nav {
     display: none;
 }
 
-nav li{
+nav li {
     list-style: none;
     display: inline;
     margin-right: 16px;
@@ -42,7 +42,7 @@ nav li{
     text-transform: uppercase;
 }
 
-nav li a{
+nav li a {
     color: #fff;
     text-decoration: none;
 }
@@ -84,19 +84,19 @@ section h2 {
 .lista-veiculos li {
     list-style: none;
     max-width: 30%;
-    margin-bottom: 24px;    
+    margin-bottom: 24px;
 }
 
 .lista-veiculos img {
-    max-width: 100%;    
+    max-width: 100%;
 }
 
 .lista-veiculos h3 {
-    margin: 16px 0;    
+    margin: 16px 0;
 }
 
 .item-central {
-    margin: 0 5%;    
+    margin: 0 5%;
 }
 
 button {
@@ -133,7 +133,7 @@ button {
 }
 
 .form-campo input,
-.form-campo textarea { 
+.form-campo textarea {
     width: 100%;
     padding: 8px;
 }
@@ -145,4 +145,8 @@ button {
 
 form {
     max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
 }
