@@ -135,4 +135,10 @@ section h2 {
 .form-campo input,
 .form-campo textarea { 
     width: 100%;
+    padding: 8px;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
 }
