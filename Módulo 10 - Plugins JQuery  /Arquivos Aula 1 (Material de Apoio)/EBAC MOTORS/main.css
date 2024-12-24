@@ -128,5 +128,11 @@ section h2 {
 }
 
 .form-campo label {
-    
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea { 
+    width: 100%;
 }
