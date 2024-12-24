@@ -151,3 +151,16 @@ form button {
     max-width: 120px;
 }
 
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
+
+footer .container {
+    justify-content: space-between;
+    align-items: center;
+}
