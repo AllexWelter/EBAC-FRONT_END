@@ -15,7 +15,7 @@ html {
     margin: 0 auto;
 }
 
-header {
+header, footer {
     background-color: #192a56;
     padding-top: 16px;
     color: #fff;
@@ -149,5 +149,5 @@ form {
 
 form button {
     max-width: 120px;
-    
 }
+
