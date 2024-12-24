@@ -124,5 +124,9 @@ section h2 {
 }
 
 .form-campo {
+    margin-bottom: 16px
+}
+
+.form-campo label {
     
 }
