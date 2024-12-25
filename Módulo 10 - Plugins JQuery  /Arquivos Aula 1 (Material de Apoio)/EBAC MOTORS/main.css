@@ -15,7 +15,8 @@ html {
     margin: 0 auto;
 }
 
-header, footer {
+header,
+footer {
     background-color: #192a56;
     padding-top: 16px;
     color: #fff;
@@ -23,7 +24,7 @@ header, footer {
 
 header {
     position: sticky;
-    top: 0;    
+    top: 0;
     left: 0;
     z-index: 1;
 }
@@ -167,4 +168,3 @@ footer li {
 footer li img {
     height: 32px;
 }
-
