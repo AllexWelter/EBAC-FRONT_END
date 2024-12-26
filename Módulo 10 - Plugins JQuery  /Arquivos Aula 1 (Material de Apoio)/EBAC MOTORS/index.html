@@ -278,14 +278,14 @@
                 messages: {
                     nome: 'Por favor, insira o seu nome.'
                 },
-                submitHandler: function(form) {
+                submitHandler: function (form) {
                     console.log(form)
                 },
-                invalidHanlder: function(evento, validador) {
-                let camposIncorretos = validador.numberOfInvalids()
-                if (camposIncorretos) {
-                    alert(`Existem ${camposIncorretos} campo incorretos`)
-                }
+                invalidHanlder: function (evento, validador) {
+                    let camposIncorretos = validador.numberOfInvalids()
+                    if (camposIncorretos) {
+                        alert(`Existem ${camposIncorretos} campo incorretos`)
+                    }
                 }
             })
         })       
