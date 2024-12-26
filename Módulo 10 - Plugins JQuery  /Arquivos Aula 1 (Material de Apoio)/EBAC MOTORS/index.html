@@ -282,7 +282,8 @@
                     console.log(form)
                 },
                 invalidHanlder: function(evento, validador) {
-                       
+                let camposIncorretos = validador.numberOfInvalids()
+                console.log(camposIncorretos)           
                 }
             })
         })       
