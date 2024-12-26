@@ -261,7 +261,20 @@
                 placeholder: "(__) _____-____"
             })
 
-            $('form').validate
+            $('form').validate({
+                rules: {
+                    nome: {
+                        required: true
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    telefone: {
+                        required: true
+                    }
+                }
+            })
         })       
     </script>
 </body>
