@@ -33,10 +33,10 @@ $(document).ready(function () {
         messages: {
             nome: 'Por favor, insira o seu nome.'
         },
-        submitHandler: function(form) {
+        submitHandler: function (form) {
             console.log(form)
         },
-        invalidHandler: function(evento, validador) {
+        invalidHandler: function (evento, validador) {
             let camposIncorretos = validador.numberOfInvalids()
             if (camposIncorretos) {
                 alert(`Existem ${camposIncorretos} campos incorretos.`)
@@ -44,10 +44,10 @@ $(document).ready(function () {
         }
     })
 
-    $('.lista-veiculos button').click(function() {
+    $('.lista-veiculos button').click(function () {
         const destino = $('#contato')
         const nomeVeiculo = $(this).parent().find('h3').text()
-        
+
         $('#veiculo-interesse').val(nomeVeiculo)
 
         $('html').animate({
