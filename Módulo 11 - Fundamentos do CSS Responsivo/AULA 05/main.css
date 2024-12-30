@@ -23,7 +23,7 @@ header {
 }
 
 .submenu {
-    display: none;    
+    display: block;    
 }
 
 .menu li {
@@ -37,4 +37,10 @@ header {
     clear: both;
 }
 
-.menu li
+.menu li:hover .submenu{
+    display: block;
+}
+
+.submen li {
+    
+}
