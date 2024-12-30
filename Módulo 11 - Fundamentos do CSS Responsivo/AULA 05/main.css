@@ -65,3 +65,12 @@ header {
 .noticia img {
     max-width: 100%;    
 }
+
+.destaque .noticia a {
+    display: flex;
+    font-size: 2em;
+}
+
+.destaque .noticia img {
+    
+}
