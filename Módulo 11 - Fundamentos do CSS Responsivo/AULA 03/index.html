@@ -7,20 +7,26 @@
 </head>
 <style>
     li {
+        width: 100%;
         list-style-type: none;
-        max-width: 33%;
-        float: left;
+        
     }
     li img {
         width: 100%;
     }
 
-    @media screen and (max-width: 640px) {
+    @media screen and (min-width: 1366px) {
         li {
-            max-width: 100%;    
+            max-width: 33%;
+            float: left;    
         }    
     }
 
+    @media screen and (orientation: portrait) and () {
+        body {
+            background-color: red;
+        }
+    }
 </style>
 <body>
     <ul>
