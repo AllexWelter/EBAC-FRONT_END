@@ -72,5 +72,9 @@ header {
 }
 
 .destaque .noticia img {
-    
+    margin-right: 8px;    
+}
+
+section h2 {
+    margin-bottom: 32px
 }
