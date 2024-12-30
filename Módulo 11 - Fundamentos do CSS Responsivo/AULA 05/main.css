@@ -23,6 +23,18 @@ header {
 }
 
 .submenu {
-    
+    display: none;    
 }
 
+.menu li {
+    float: left;
+    list-style-type: none;
+    padding: 16px;
+    border-top: 4px solid transparent;
+}
+
+.clear {
+    clear: both;
+}
+
+.menu li
