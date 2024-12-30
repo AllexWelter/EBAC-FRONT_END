@@ -18,12 +18,16 @@ header .container {
 }
 
 header {
-    padding: 16px 0;
+    padding: 16px 0 0;
     border-bottom: 1px solid #ccc;
 }
 
 .submenu {
-    display: block;    
+    display: block;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    width: 300px;    
 }
 
 .menu > li {
@@ -31,6 +35,7 @@ header {
     list-style: none;
     padding: 16px;
     border-top: 4px solid transparent;
+    position: relative;
 }
 
 .clear {
@@ -43,4 +48,5 @@ header {
 
 .submenu li {
     display: block;
+    padding: 8px;
 }
