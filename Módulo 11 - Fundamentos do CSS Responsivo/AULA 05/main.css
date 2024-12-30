@@ -26,9 +26,9 @@ header {
     display: block;    
 }
 
-.menu li {
+.menu > li {
     float: left;
-    list-style-type: none;
+    list-style: none;
     padding: 16px;
     border-top: 4px solid transparent;
 }
@@ -41,6 +41,6 @@ header {
     display: block;
 }
 
-.submen li {
-    
+.submenu li {
+    display: block;
 }
