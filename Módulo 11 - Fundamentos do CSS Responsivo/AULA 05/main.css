@@ -25,6 +25,7 @@ header {
 .submenu {
     display: none;
     border: 1px solid red;
+    background-color: #fff;
     position: absolute;
     left: 0;
     width: 300px;
@@ -54,4 +55,13 @@ header {
 .submenu li {
     display: block;
     padding: 8px;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.noticia img {
+    
 }
