@@ -135,33 +135,20 @@ aside .noticia {
     }
 
     .submenu {
-        display: none;
+        display: block;
         border: 1px solid red;
         background-color: #fff;
         position: absolute;
         left: 0;
-        width: 300px;
+        width: 100%;
         top: 100%;   
+
+        position: relative;
+        border: none;
     }
     
     .menu > li {
-        float: left;
-        list-style: none;
-        padding: 16px;
-        border-top: 4px solid transparent;
-        position: relative;
-    }
-    
-    .clear {
         clear: both;
-    }
-    
-    .menu li:hover .submenu{
-        display: block;
-    }
-    
-    .menu li:hover {
-        border-color: red;    
     }
     
     .submenu li {
