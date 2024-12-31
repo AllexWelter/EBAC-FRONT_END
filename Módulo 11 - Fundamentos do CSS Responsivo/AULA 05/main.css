@@ -165,3 +165,7 @@ aside .noticia {
         padding: 8px;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}
