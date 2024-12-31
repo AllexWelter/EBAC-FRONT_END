@@ -117,4 +117,12 @@ aside .noticia {
     .destaque .noticia img {
         margin-right: 0px;    
     }
+
+    .noticias {
+        display: block;
+    }
+
+    .noticias .noticia {
+        margin-bottom: 32px;    
+    }
 }
