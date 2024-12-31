@@ -183,3 +183,9 @@ aside .noticia {
         grid-template-columns: repeat(2, 49%);
     }
 }
+
+@media screen and (min-widht: 1024px) {
+    .botao-menu {
+        display: none;
+    }
+}
