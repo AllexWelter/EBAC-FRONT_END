@@ -99,4 +99,6 @@ aside .noticia {
     row-gap: 5%;
 }
 
-@media screen and (max-)
+@media screen and (max-width: 767px) {
+    
+}
