@@ -100,5 +100,8 @@ aside .noticia {
 }
 
 @media screen and (max-width: 767px) {
-    
+    .conteudo {
+        display: block;
+        
+    }    
 }
