@@ -15,7 +15,7 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 56px;
+    margin-bottom: 16px;
 }
 
 header {
@@ -125,4 +125,13 @@ aside .noticia {
     .noticias .noticia {
         margin-bottom: 32px;    
     }
+
+    aside {
+        padding-left: 0px;
+    }
+
+    header .container {
+        flex-direction: column;
+    }
+    
 }
