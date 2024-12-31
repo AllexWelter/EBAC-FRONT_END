@@ -103,5 +103,9 @@ aside .noticia {
     .conteudo {
         display: block;
         
-    }    
+    }
+    
+    .container {
+        
+    }
 }
