@@ -130,8 +130,43 @@ aside .noticia {
         padding-left: 0px;
     }
 
-    header .container {
+    header div.container {
         flex-direction: column;
+    }
+
+    .submenu {
+        display: none;
+        border: 1px solid red;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        width: 300px;
+        top: 100%;   
+    }
+    
+    .menu > li {
+        float: left;
+        list-style: none;
+        padding: 16px;
+        border-top: 4px solid transparent;
+        position: relative;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    .menu li:hover .submenu{
+        display: block;
+    }
+    
+    .menu li:hover {
+        border-color: red;    
+    }
+    
+    .submenu li {
+        display: block;
+        padding: 8px;
     }
     
 }
