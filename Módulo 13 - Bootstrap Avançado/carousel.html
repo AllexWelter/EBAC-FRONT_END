@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="carousel slide" data-bs-ride="carousel">
+    <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div data-bs-interval="3000" class="carousel-item active">
                 <img src="https://cdn.pixabay.com/photo/2018/11/29/23/34/cat-3846780_1280.jpg"/>
@@ -19,6 +19,12 @@
                 <img src="https://cdn.pixabay.com/photo/2020/03/16/05/23/cat-4935759_1280.jpg"/>
             </div>
         </div>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
     </div>
 
 <script src="./lib/bootstrap.bundle.min.js"></script>    
