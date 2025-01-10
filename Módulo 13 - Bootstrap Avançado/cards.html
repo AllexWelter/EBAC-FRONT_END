@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        .card-img-overlay {
+            background-color: rgba(0, 0, 0, 0.7);    
+        }    
+    </style>
     <title>Bootstrap - Cards</title>
 </head>
 <body>
@@ -11,32 +16,31 @@
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <div class="card">
-                    <div class="card-header">
-                        Cabeçalho do header
-                    </div>
+                <article class="card">
+                    <header class="card-header">
+                        Desenvolvimente Web
+                    </header>
                     <img src="https://via.placeholder.com/100x100"/>
                     <div class="card-body">
-                        <h4 class="card-title">Título do Card</h4>
-                        <h5 class="card-subtitle">Subtítulo do Card</h5>
+                        <h4 class="card-title">Cards do Bootstrap</h4>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nesciunt magnam nobis saepe eum temporibus vel dicta velit.
+                            Conheça os cards do Bootstrap e suas variações.
                         </p>
-                        <a href="#" class="btn btn-primary">Botão Link</a>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
                     </div>
-                </div>                       
+                    <footer class="card-footer">
+                        Postado em <time>10/01/2025 às  06:51:00</time>
+                    </footer>
+                </article>                       
             </div>
             <div class="col-4">
-                <div class="card">
-                    <div class="card-header">
-                        Cabeçalho do header
-                    </div>
-                    <img src="https://cdn.pixabay.com/photo/2024/11/05/05/38/japancontest-9175030_1280.jpg"/>
-                    <div class="card-body">
+                <div class="card text-bg-dark">
+                    <img src="https://cdn.pixabay.com/photo/2023/09/29/07/49/grassland-8283155_1280.jpg"/>
+                    <div class="card-img-overlay">
                         <h4 class="card-title">Título do Card</h4>
                         <h5 class="card-subtitle">Subtítulo do Card</h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nesciunt magnam nobis saepe eum temporibus vel dicta velit.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         </p>
                         <a href="#" class="btn btn-primary">Botão Link</a>
                     </div>
