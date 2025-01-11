@@ -15,17 +15,21 @@
         section {
             height: 100vh;
             background-color: #ccc;
+            padding-top: 71px;
         }
         
         header {
-            
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color: #fff;    
         }
     </style>
     <title>Bootstrap - Navbar</title>
 </head>
 
 <body>
-    <header>
+    <header id="cabecalho">
         <div class="navbar navbar-expand-lg">
             <div class="container">
                 <h1>Título do site</h1>
@@ -51,18 +55,20 @@
             </div>
         </div>
     </header>
-    <section id="inicio">
-        <h2>Início</h2>
-    </section>
-    <section id="produtos">
-        <h2>Produtos</h2>
-    </section>
-    <section id="promocoes">
-        <h2>Promoções</h2>
-    </section>
-    <section id="contato">
-        <h2>Contato</h2>
-    </section>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="inicio">
+            <h2>Início</h2>
+        </section>
+        <section id="produtos">
+            <h2>Produtos</h2>
+        </section>
+        <section id="promocoes">
+            <h2>Promoções</h2>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+        </section>    
+    </div>
 
     <script src="./lib/bootstrap.bundle.min.js"></script>
 </body>
