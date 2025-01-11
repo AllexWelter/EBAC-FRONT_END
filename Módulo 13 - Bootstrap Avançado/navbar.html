@@ -14,7 +14,7 @@
         }
         section {
             height: 100vh;
-            background-color: #ccc;
+            background-color: #fff;
             padding-top: 71px;
         }
         
@@ -62,11 +62,22 @@
         <section id="produtos">
             <h2>Produtos</h2>
             <div class="container">
-                <nav>
-                    <button type="button">Eletrônicos</button>
-                    <button type="button">Moda Masculina</button>
-                    <button type="button">Moda Feminina</button>                     
-                </nav>   
+                <nav class="nav nav-tabs">
+                    <button data-bs-toggle="tab" class="nav-link active" type="button">Eletrônicos</button>
+                    <button data-bs-toggle="tab" class="nav-link" type="button">Moda Masculina</button>
+                    <button data-bs-toggle="tab" class="nav-link" type="button">Moda Feminina</button>                     
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-pane active">
+                        Conteúdo da aba Eletrônicos
+                    </div>
+                    <div class="tab-pane">
+                        Conteúdo da aba Moda Masculina
+                    </div>
+                    <div class="tab-pane">
+                        Conteúdo da aba Moda Feminina
+                    </div>
+                </div>   
             </div>
         </section>
         <section id="promocoes">
