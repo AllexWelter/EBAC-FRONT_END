@@ -54,6 +54,7 @@
                         </li>
                     </ul>
                 </nav>
+                <button id="btn-checar-emails" type="button" class="btn btn-warning">Checar caixa de mensagens</button>
             </div>
         </div>
     </header>
@@ -98,12 +99,21 @@
             <header class="toast-header">
                 <strong>Importante</strong>
             </header>
-            <div>
+            <div class="toast-body">
                 Você possui 10 mensagens não lidas.
             </div>
         </div>    
     </div>
-    <script src="./lib/bootstrap.bundle.min.js"></script>
 </body>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script>
+        const ativadorToast = document.getElementById('btn-checar-emails')
+        if(ativadorToast){
+            ativadorToast.addEventListener('click', function() {
+                
+            })
+        }
+
+    </script>
 
 </html>
