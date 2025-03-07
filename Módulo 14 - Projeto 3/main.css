@@ -18,10 +18,10 @@ body {
     color: #fff;
 }
 
-.navbar-brand {
-    font-family: Pacifico, cursive;    
-}
-
 .navbar-toggler {
     background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;     
 }
